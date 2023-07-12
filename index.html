@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tailwind postcss</title>
     <link rel="stylesheet" href="style.css">
+     <!-----------------font awesome link---------------------->
+     <link rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -29,24 +32,56 @@
          </header>
 
           <section class="mt-20">
-               <div class="flex justify-center">
+               <div class="flex justify-center items-center gap-x-44">
                    <img src="images/person.png" class="w-1/3">
 
                    <div class="w-1/3">
-                        <h2>
-                            My failures of previous year
+                        <h2 class="text-3xl text-black font-bold mb-6">
+                            My failures of <br> previous year
                         </h2>
-                        <p>
+                        <p class="text-base mb-6">
                             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.
                         </p>
-
-                             <li>Contrary to popular belief, is not simply.</li>
-                             <li>Contrary to popular belief.</li>
-                             <li>Contrary to popular , is not simply.</li>
-                             <li>Contrary to popular belief, is not simply.</li>
-                             <li>Contrary to popular belief.</li>
+                           <ul class="list-none text-base leading-7">
+                               <li> <i class="fa-solid fa-check text-blue-600 mr-1"></i> Contrary to popular belief, is not simply.</li>
+                               <li> <i class="fa-solid fa-check text-blue-600 mr-1"></i> Contrary to popular belief.</li>
+                               <li> <i class="fa-solid fa-check text-blue-600 mr-1"></i> Contrary to popular , is not simply.</li>
+                               <li> <i class="fa-solid fa-check text-blue-600 mr-1"></i> Contrary to popular belief, is not simply.</li>
+                               <li> <i class="fa-solid fa-check text-blue-600 mr-1"></i> Contrary to popular belief.</li>
+                           </ul>
+                             
                    </div>
                </div>
+          </section>
+
+          <section class="mt-20">
+                   <h2 class="text-3xl text-black font-bold mb-12 text-center">My Plans</h2>
+                   
+                    <div class="flex">
+                          <div>
+                            <img src="images/icons/web.png" >
+                            <h4>Web Developer</h4>
+                            <p>I wont to start.</p>
+                          </div>
+
+                          <div>
+                            <img src="images/icons/js.png" >
+                            <h4>JavaScript</h4>
+                            <p>I wont to start.</p>
+                          </div>
+
+                          <div>
+                            <img src="images/icons/smoke.png" >
+                            <h4>Web Developer</h4>
+                            <p>I wont to start.</p>
+                          </div>
+
+                          <div>
+                            <img src="images/icons/ecom.png" >
+                            <h4>Web Developer</h4>
+                            <p>I wont to start.</p>
+                          </div>
+                    </div>
           </section>
 
 </body>
